@@ -1,0 +1,11 @@
+@import 'Minus.scss';
+
+.cart-element-amount-increment {
+  @extend .cart-element-amount-decrement;
+
+  font-size: 34px;
+}
+
+.cart-element-amount-increment.disabled {
+  @extend .cart-element-amount-decrement.disabled;
+}

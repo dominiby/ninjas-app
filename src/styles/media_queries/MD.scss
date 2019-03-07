@@ -1,0 +1,15 @@
+/* Media queries - MEDIUM SCREENS - 992px - 1199px */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 880px;
+  }
+
+  #cart-finish {
+    margin-right: 40px;
+  }
+
+  .cart-element-remove {
+    right: 0;
+  }
+}

@@ -1,0 +1,7 @@
+@import '../Variables.scss';
+
+.cart-element-separator {
+  background-color: $cart-element-separator-color;
+  width: 1px;
+  height: 200px;
+}

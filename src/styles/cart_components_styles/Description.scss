@@ -1,0 +1,9 @@
+@import '../Variables.scss';
+
+.cart-element-description {
+  width: 350px;
+  font-size: 14px;
+  margin-top: 22px;
+  color: $description-color;
+  line-height: 22px;
+}

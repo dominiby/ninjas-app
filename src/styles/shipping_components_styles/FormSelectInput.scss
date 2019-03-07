@@ -1,0 +1,33 @@
+@import '../Variables.scss';
+@import 'FormTextInput.scss';
+
+.label-select-wrapper {
+  @extend .label-input-wrapper;
+}
+
+.label-select-wrapper label {
+  @extend label;
+}
+
+#select-wrapper {
+  position: relative;
+}
+
+#select-wrapper span {
+  position: absolute;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  right: 20px;
+  font-size: 14px;
+  color: $form-select-text-color;
+}
+
+select:focus {
+  @extend input:focus;
+}
+
+select {
+  @extend input;
+}

@@ -1,0 +1,40 @@
+@import '../Variables.scss';
+@import '../Mixins.scss';
+
+.shipping-form-element {
+  @include flexbox(center, center, column);
+  margin-top: 20px;
+}
+
+.label-input-wrapper {
+  @include flexbox(flex-end, center);
+}
+
+label {
+  width: 155px;
+  font-size: 20px;
+}
+
+input {
+  width: 340px;
+  height: 40px;
+  font-size: 14px;
+  color: $form-input-text-color;
+  margin-left: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid $form-input-border-color;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid $form-input-focus-border-color;
+}
+
+.error {
+  width: 160px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: $form-element-error-color;
+}

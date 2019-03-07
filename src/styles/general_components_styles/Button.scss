@@ -1,0 +1,24 @@
+@import '../Variables.scss';
+
+button {
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: $button-background-color;
+  border: 1px solid $button-border-color;
+  color: $button-text-color;
+  font-size: 18px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.disabled {
+  background-color: $button-disabled-background-color;
+  border-color: $button-disabled-border-color;
+  color: $button-disabled-text-color;
+  cursor: auto;
+}

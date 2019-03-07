@@ -1,0 +1,27 @@
+@import '../Variables.scss';
+@import '../Mixins.scss';
+
+.cart-element {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 30px 30px 30px;
+  margin-left: 50px;
+  border-bottom: 1px solid $cart-element-bottom-border-color; 
+}
+
+.cart-element-header-description-wrapper {
+  flex: 8;
+  padding-left: 35px;
+}
+
+.cart-element-amount {
+  @include flexbox(space-around, center);
+  flex: 3;
+  padding-left: 40px;
+}
+
+.cart-element-total {
+  @include flexbox();
+  flex: 2;
+  position: relative;
+}

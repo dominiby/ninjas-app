@@ -1,0 +1,44 @@
+/* Media queries - SMALL SCREENS - 768px - 991px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 650px;
+  }
+  
+  .cart-element {
+    padding-right: 10px;
+    padding-left: 0;
+    margin-left: 15px;
+  }
+
+  .cart-element-header, .cart-element-description {
+    width: 250px;
+  }
+
+  .cart-element-amount {
+    padding-left: 10px;
+  }
+
+  .cart-element-amount-decrement, .cart-element-amount-increment {
+    height: 36px;
+    width: 36px;
+  }
+
+  .cart-element-amount-number {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cart-element-total {
+    margin-left: 10px;
+    flex: 3 1;
+  }
+
+  .cart-element-remove {
+    right: 0;
+  }
+
+  #cart-finish {
+    margin-right: 20px;
+  }
+}
