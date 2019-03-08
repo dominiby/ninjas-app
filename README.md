@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## The project
+## Demo
 
-Link do live demo - https://dominiby.github.io/ninjas-app/build
+Link to live demo - https://dominiby.github.io/ninjas-app/build
 
 ## Available Scripts
 
