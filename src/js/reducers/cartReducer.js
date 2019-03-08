@@ -36,8 +36,7 @@ const reducer = (state={
       if (newCartElements[cartElementToUpdateIndex].amount > 0) {
         newCartElements[cartElementToUpdateIndex].amount--;
       }
-
-      if (newCartElements[cartElementToUpdateIndex].amount === 0) {
+      else if (newCartElements[cartElementToUpdateIndex].amount === 0) {
         newCartElements[cartElementToUpdateIndex].isMinusDisabled = true;
       }
 
